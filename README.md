@@ -8,14 +8,34 @@ The bikeshare project and README file were both created in 06/29/2020.
 
 ## Description
 This project analyzes the data of bicycle sharing system of three major US cities : *Chicago*, *Washington* and *New York City* using Python.
-The code build an interactive environment with the user.
+The code build an interactive environment with the user answering these questions:
+
+1. **Popular times of travel** (i.e., occurs most often in the start time)
+- most common month
+- most common day of week
+- most common hour of day
+
+2. **Popular stations and trip**
+- most common start station
+- most common end station
+- most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+3. **Trip duration**
+- total travel time
+- average travel time
+
+4. **User info**
+- counts of each user type
+- counts of each gender (only available for NYC and Chicago)
+- earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
 Also this code display 5 lines of raw data upon the user choice.
 
 ## Files used
 You can find the following files in project workspace in Udacity course *Explore US Bikeshare Data*:
-*chicago.csv
-*new_york_city.csv
-*washington.csv
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ## Credits
 1. *Solving errors :* When I faced errors in running the code and I couldn't solve the problem I automatically check [stackoverflow](https://stackoverflow.com/), in this website  you can find multi-solutions for your errors.

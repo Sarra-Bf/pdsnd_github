@@ -1,4 +1,3 @@
-# General information:
 
 ## Project Title
 Udacity python project : *Bikeshare*
@@ -38,8 +37,17 @@ You can find the following files in project workspace in Udacity course *Explore
 * washington.csv
 
 ## Credits
-1. *Solving errors :* When I faced errors in running the code and I couldn't solve the problem I automatically check [stackoverflow](https://stackoverflow.com/), in this website  you can find multi-solutions for your errors.
-2. *Documentation :* there is a lot of source for documentation in google such as https://docs.python.org/3/library/ and in different languages.
+1. **Solving errors :** When I faced errors in running the code and I couldn't solve the problem I automatically check *[stackoverflow](https://stackoverflow.com/)*, in this website  you can find multi-solutions for your errors.
+
+2. **Documentation :** there is a lot of source for documentation in google such as *https://docs.python.org/3/library/* and in different languages.
 If you're not an English native speaker, it would be better to find resources in your language.
-In this project I searched for documentation in my second language *French* and I found this [PDF](http://eric.univ-lyon2.fr/~ricco/tanagra/fichiers/fr_Tanagra_Data_Manipulation_Pandas.pdf) useful to manipulate data with Pandas.
-3. Also, video tutorials make learning programming much easier. I found this [Arabic tutorial](https://www.youtube.com/watch?v=5Fl5MPaFrH4) really helpful.
+In this project I searched for documentation in my second language *French* and I found this *[PDF](http://eric.univ-lyon2.fr/~ricco/tanagra/fichiers/fr_Tanagra_Data_Manipulation_Pandas.pdf)* useful to manipulate data with Pandas.
+
+3. Also, video tutorials make learning programming much easier. I found this *[Arabic tutorial](https://www.youtube.com/watch?v=5Fl5MPaFrH4)* really helpful.
+
+## Installation    
+I installed Python using *[Anaconda](https://www.anaconda.com/products/individual#windows)*.
+- Python version 3.7.6
+- Anaconda version 1.7.2
+
+To write this code I used *[Atom](https://atom.io/)* and *Anaconda* terminal for running.

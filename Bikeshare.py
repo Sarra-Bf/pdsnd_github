@@ -165,6 +165,7 @@ def user_stats(df,city):
     print('-'*40)
 
 def raw_data(df,city):
+    """Displays 5 lines of raw data upon user choice of the city."""
     answer=input('Do you want to see 5 lines of raw data, Enter yes or no\n')
     #we declare line as global variable and we had previously define it ^ in line N°4
     global line

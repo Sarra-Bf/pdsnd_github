@@ -13,9 +13,9 @@ Also this code display 5 lines of raw data upon the user choice.
 
 ## Files used
 You can find the following files in project workspace in Udacity course *Explore US Bikeshare Data*:
--chicago.csv
--new_york_city.csv
--washington.csv
+*chicago.csv
+*new_york_city.csv
+*washington.csv
 
 ## Credits
 1. *Solving errors :* When I faced errors in running the code and I couldn't solve the problem I automatically check [stackoverflow](https://stackoverflow.com/), in this website  you can find multi-solutions for your errors.

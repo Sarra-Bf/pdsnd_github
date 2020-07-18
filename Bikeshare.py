@@ -18,6 +18,7 @@ def get_filters():
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input("Choose the city to analyze, chicago, new york city or washington: ").lower()
+    # we use the string methode lower() to force input city names to lowercase characters 
     while city not in ['chicago', 'new york city', 'washington']:
         city = input("Please enter one city:chicago, new york city or washington: ").lower()
 

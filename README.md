@@ -1,6 +1,6 @@
 
 ## Project Title
-Udacity python project : *Bikeshare*
+Explore US Bikeshare Data
 
 ## Date created
 The bikeshare project and README file were both created in 06/29/2020.

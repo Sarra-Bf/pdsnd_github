@@ -27,8 +27,10 @@ def get_filters():
         month=input('Please choose one month from this list : january, february, march, april, may, june').lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    print("please choose the day to analyze or all for no day filter: ")
-    day = input().lower()
+    day = print("please choose the day to analyze or all for no day filter: ")
+    while day not in ('saturday','sunday','monday','tuesday','wednesday','thursday','friday','all'):
+        print('Please enter a correct day).lower()
+        day = input().lower()
 
     print('-'*40)
     return city, month, day

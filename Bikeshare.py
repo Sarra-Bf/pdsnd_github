@@ -23,15 +23,14 @@ def get_filters():
         city = input("Please enter one city:chicago, new york city or washington: ").lower()
 
     # get user input for month (all, january, february, ... , june)
-    print("please choose the month you want to analyze or all for no month filter: ")
-    month = input().lower()
+    month = input("please choose the month you want to analyze or all for no month filter: ").lower()
     while month not in ('january','february','march','april','may','june','all'):
-        print('Please choose one month from this list : january, february, march, april, may, june')
-        month=input()
+        month=input('Please choose one month from this list : january, february, march, april, may, june').lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    print("please choose the day to analyze or all for no day filter: ")
-    day = input().lower()
+    day = print("please choose the day to analyze or all for no day filter: ")
+    while day not in ('saturday','sunday','monday','tuesday','wednesday','thursday','friday','all'):
+        day = input("Please enter a correct day").lower()
 
     print('-'*40)
     return city, month, day
@@ -167,6 +166,7 @@ def user_stats(df,city):
     print('-'*40)
 
 def raw_data(df,city):
+    """Displays 5 lines of raw data upon user choice of the city."""
     answer=input('Do you want to see 5 lines of raw data, Enter yes or no\n')
     #we declare line as global variable and we had previously define it ^ in line N°4
     global line
